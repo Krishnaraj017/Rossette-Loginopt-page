@@ -27,8 +27,8 @@ class LoginForm extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                       side: const BorderSide(
-                        width: 2,
-                        color: Colors.black,
+                        width: 0.2,
+                        color: Colors.black87,
                       ),
                     ),
                   ),

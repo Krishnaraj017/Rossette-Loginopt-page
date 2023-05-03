@@ -140,8 +140,8 @@ class LoginScreen extends StatelessWidget {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(20),
                                 side: const BorderSide(
-                                  width: 2,
-                                  color: Colors.black,
+                                  width: 0.2,
+                                  color: Colors.black87,
                                 ),
                               ),
                             ),
@@ -180,10 +180,12 @@ class LoginScreen extends StatelessWidget {
                               ),
                             ),
                             style: OutlinedButton.styleFrom(
-                              backgroundColor: const Color(0xFF1771E6),
-                              side: BorderSide.none,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(20),
+                                side: const BorderSide(
+                                  width: 0.2,
+                                  color: Colors.black87,
+                                ),
                               ),
                             ),
                           ),
